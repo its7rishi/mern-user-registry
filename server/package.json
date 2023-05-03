@@ -1,0 +1,28 @@
+{
+  "name": "mern-user-registry",
+  "version": "1.0.0",
+  "description": "A MERN Stack user registry app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "mern",
+    "fullstack",
+    "expressjs",
+    "nodejs",
+    "reactjs"
+  ],
+  "author": "Saptarshi Majumdar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
